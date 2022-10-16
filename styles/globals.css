@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "nezto";
+  src: local("nezto"),
+    url(../assets/Fonts/Nezto/ZtNeztoDemoRegular-0WYEo.woff) format("woff");
+}
+
+.heroImg {
+  width: 100vw;
+  height: 120vh;
+  background-image: url("../assets/Images/seven.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.heroTop {
+  height: 120vh;
+  width: 100vw;
+}
+
+.heroText {
+  font-size: 200px;
+}
+
+.one {
+  height: 30vh;
+  width: 16vw;
+  background-image: url("../assets/Images/one.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.two {
+  height: 30vh;
+  width: 16vw;
+  background-image: url("../assets/Images/two.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.three {
+  height: 30vh;
+  width: 16vw;
+  background-image: url("../assets/Images/three.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.four {
+  height: 30vh;
+  width: 16vw;
+  background-image: url("../assets/Images/four.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.arrowCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headTab {
+  display: none;
+}
+
+.otherCard {
+  display: none;
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+  .header {
+    display: none;
+  }
+
+  .headTab {
+    display: block;
+  }
+
+  .herotextTab {
+    padding-left: 5vw;
+  }
+  .herotextTabP1 {
+    font-size: 2rem;
+  }
+  .herotextTabP2 {
+    font-size: 0.8rem;
+  }
+  .heroText {
+    font-size: 8rem;
+    margin-top: 2%;
+  }
+  .card {
+    width: 43vw;
+  }
+  .one {
+    width: 32vw;
+    height: 40vh;
+  }
+  .two {
+    width: 32vw;
+    height: 40vh;
+  }
+  .wrapCard {
+    width: 150vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+
+  .headTab {
+    display: block;
+  }
+
+  .herotextTab {
+    padding-left: 5vw;
+    padding-right: 0px;
+  }
+
+  .herotextTabP1 {
+    font-size: 1.9rem;
+  }
+  .herotextTabP2 {
+    font-size: 1.1rem;
+    margin-top: 8%;
+  }
+
+  .heroText {
+    font-size: 5rem;
+    margin-top: 5%;
+  }
+  .card {
+    display: none;
+  }
+
+  .otherCard {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80vw;
+  }
+  .wrapCard {
+    padding-left: 8vw;
+  }
+  .one {
+    width: 60vw;
+    height: 40vh;
+  }
+  .two {
+    width: 60vw;
+    height: 40vh;
+  }
+}
