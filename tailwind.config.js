@@ -6,6 +6,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       nezto: ["nezto", "sans-serif"],
+      josefin: ["josefin"]
     },
   },
   plugins: [],

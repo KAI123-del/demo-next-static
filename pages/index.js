@@ -10,36 +10,45 @@ export default function Home() {
       <div className="heroImg relative">
       </div>
 
-      <div className='heroTop bg-black absolute top-0 opacity-50'>
+      <div className='heroTop bg-black absolute top-0 opacity-20'>
 
       </div>
 
       {/* ==================head=============================== */}
 
-      <div className='absolute header top-0 w-full font-nezto flex space-x-12 justify-end px-40 tracking-widest pt-12 items-start text-white'>
-        <p className='text-orange-300 border-b pb-2 border-orange-300'>HOME</p>
-        <p>ABOUT US</p>
-        <p>LOOK BOOK</p>
-        <p>PRESS</p>
-        <p>PROCESS</p>
-        <p>CONTACT</p>
+      <div className='headerNew flex justify-center items-center '>
+        <div className=''>
+          <p className='logo1 '></p>
+          <p className='logo2'></p>
+          <p className='logo3'></p>
+          <p className='lg:-translate-x-4 lg:translate-y-6 logoMainText text-xs font-josefin '>GROUND ZERO</p>
+          <p className='lg:hidden logoMainText1'>ARCHITECTURE | INTERIOR</p>
+        </div>
+        <div className=' header   font-nezto flex space-x-12 justify-end  tracking-widest items-start '>
+          <p style={{ color: '#F0B342', borderBottom: '2px solid #F0B342' }} className='  pb-2 '>HOME</p>
+          <p>ABOUT US</p>
+          <p>LOOK BOOK</p>
+          <p>PRESS</p>
+          <p>PROCESS</p>
+          <p>CONTACT</p>
+        </div>
       </div>
 
       {/* head mob and tab */}
-      <div className=' absolute headTab top-2 right-0  font-nezto flex flex-col space-y-3 px-4 pt-8  justify-end  tracking-widest items-center text-white '>
-        <p className='border-4 border-white w-16 '></p>
-        <p className='border-4 border-white w-16 '></p>
+      <div className=' absolute headTab top-0 right-0  font-nezto flex flex-col space-y-3 px-4 pt-8  justify-end  tracking-widest items-center text-white '>
+        <p className='border-4 border-black w-12 '></p>
+        <p className='border-4 border-black w-12 '></p>
       </div>
 
       <div className='absolute herotextTab top-72 px-36 text-white font-nezto  tracking-widest'>
-        <p className='text-6xl herotextTabP1  font-semibold mb-6'>HEADLINE TEXT</p>
+        <p className='text-7xl herotextTabP1 font-josefin   mb-6'>HEADLINE TEXT</p>
         <p className='herotextTabP2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         <p className="mt-4 herotextTabP2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         <p className="mt-4 herotextTabP2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         <p className="mt-4 herotextTabP2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
       </div>
 
-      <div style={{ top: '105vh' }} className="absolute px-8  md:px-36 flex space-x-8 items-center">
+      <div  className="absolute px-8  md:px-36 flex dots space-x-8 items-center">
         <div className="border-orange-300 p-1 border rounded-full ">
           <p className="rounded-full h-3 w-3 bg-orange-300"></p>
         </div>
@@ -54,7 +63,7 @@ export default function Home() {
       </div>
 
 
-      <div className="md:flex wrapCard md:items-end md:justify-start lg:justify-center overflow-x-visible  md:space-x-6 pb-10 lg:translate-x-36 z-20 lg:-translate-y-20 md:-translate-y-12 md:translate-x-8">
+      <div className="md:flex wrapCard md:items-end md:justify-start lg:justify-center overflow-x-visible  md:space-x-6 pb-10 lg:translate-x-36 z-20 lg:-translate-y-8 md:-translate-y-4 md:translate-x-8">
         {/* left div */}
         <div className="lg:pl-12 md:pl-6 py-10 lg:pr-12 card bg-white ">
           <p className="lg:text-4xl md:text-3xl font-nezto font-extrabold tracking-widest">Get In Touch</p>
@@ -67,7 +76,7 @@ export default function Home() {
         </div>
 
         {/* right div */}
-        <div className='flex flex-col justify-end  space-y-12  items-start '>
+        <div className='flex flex-col screenDiv justify-end  space-y-12  items-start '>
           <div className="carasoulDiv flex space-x-4 ">
             <p className="one "></p>
             <p className="two "></p>
